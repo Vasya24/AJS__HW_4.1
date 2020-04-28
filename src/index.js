@@ -1,6 +1,6 @@
 let inp = document.querySelector(".input");
 let val = inp.value;
-val = Number.parseInt(val)
+val = Number.parseInt(val);
 
 try {
     typeof(val) === "number";
