@@ -1,4 +1,5 @@
-let inp = document.querySelector(".input");
+export default function func() {
+    let inp = document.querySelector(".input");
 let val = inp.value;
 val = Number.parseInt(val);
 
@@ -9,3 +10,4 @@ try {
     console.error('Вообще не ок. Я принимаю только числа.')
 }
 
+}

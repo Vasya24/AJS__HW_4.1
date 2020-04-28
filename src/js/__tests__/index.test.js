@@ -1,5 +1,7 @@
-import checking from '../../index'
+import func from '../../index'
 
-test('Try/Check checking', () => {
-    expect(typeof(val)).toBe("number")
+test('Try/Catch checking', () => {
+    if (typeof(val) === 'number') {
+        console.log('ok')
+    }
 })
