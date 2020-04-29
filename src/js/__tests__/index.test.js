@@ -1,4 +1,4 @@
-import func from '../../index'
+import '../app'
 
 test('Try/Catch checking', () => {
     if (typeof(val) === 'number') {

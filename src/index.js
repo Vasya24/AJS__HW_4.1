@@ -1,13 +1,2 @@
-export default function func() {
-    let inp = document.querySelector(".input");
-let val = inp.value;
+let val = document.getElementById('input').value
 val = Number.parseInt(val);
-
-try {
-    typeof(val) === "number";
-    console.log('Ага, ок')
-} catch {
-    console.error('Вообще не ок. Я принимаю только числа.')
-}
-
-}
