@@ -1,7 +1,5 @@
-import '../app'
+import { inp, val } from '../../index'
 
 test('Try/Catch checking', () => {
-    if (typeof(val) === 'number') {
-        console.log('ok')
-    }
+    expect(typeof inp.value).toBe('number')
 })
